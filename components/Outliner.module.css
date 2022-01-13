@@ -1,0 +1,51 @@
+.outliner {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  position: absolute;
+  width: 120px;
+  height: 350px;
+  right: 100px;
+  top: 581px; /*todo*/
+
+  background: #FFFFFF;
+  box-shadow: 0px 4px 40px rgba(19, 115, 230, 0.05);
+  border-radius: 10px;
+}
+
+.outliner div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 82%;
+}
+
+.outliner div a{
+  font-size: 16px;
+  text-align: center;
+
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
+}
+
+.outliner .toTop{
+  display: flex;
+  justify-content: space-around;
+  height: 18%;
+  width: 100%;
+
+  background: #e7f1fc;
+  backdrop-filter: blur(4px);
+  border-radius: 0 0 10px 10px ;
+  border: 0;
+}
+
+.outliner .toTop div{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
