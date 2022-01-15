@@ -10,8 +10,7 @@ type outlinerElem = {
 };
 
 // todo:
-// 1.悬浮
-// 2.根据页面位置变色
+// 1.根据页面位置变色
 
 export default function Outliner(): JSX.Element {
   const outlinerList: outlinerElem[]  = [
