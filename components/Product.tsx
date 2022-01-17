@@ -43,7 +43,7 @@ export default function Product(): JSX.Element {
     imageElement.src = `/products/${value.id}_title.svg`;
   };
   return (
-    <div className={styles.pages} id='product'>
+    <div className={`page-part ${styles.pages}`} id='product'>
       <div className={styles.products}>
         <img src='/products/products.svg' className={styles.logo} />
         {products.map((value, index) => (

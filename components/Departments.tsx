@@ -42,7 +42,7 @@ export default function Departments(): JSX.Element {
     },
   ];
   return (
-    <div className={styles.page} id='department'>
+    <div className={`page-part ${styles.pages}`} id='department'>
       <div className={styles.departments}>
         {departments.map((value, index) => (
           <div key={index.toString()} className={styles.department}>

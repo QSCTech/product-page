@@ -18,11 +18,14 @@ const Home: NextPage = () => {
         <meta charSet='utf-8' />
       </Head>
       <Navbar />
+
       <Landing />
       <Product />
       <Video />
       <Departments />
+      
       <Footer />
+      
       <Outliner />
       
     </>

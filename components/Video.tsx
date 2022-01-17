@@ -36,7 +36,7 @@ export default function Video(): JSX.Element {
     },
   ];
   return (
-    <div className={styles.pages} id='video'>
+    <div className={`page-part ${styles.pages}`} id='video'>
       <div className={styles.videos}>
         <div className={styles.video}>
           <img src='/videos/publicity.png' className={styles.image} />

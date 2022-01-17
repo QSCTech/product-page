@@ -28,3 +28,7 @@ a {
 * {
   box-sizing: border-box;
 }
+
+ul li.active > a {
+  color: #1373E6;
+}

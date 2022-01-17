@@ -56,7 +56,7 @@ export default function Landing(): JSX.Element {
     },
   ];
   return (
-    <div className={styles.root}>
+    <div className={`page-part ${styles.root}`} id="landing">
       {landingPageImg.map((value: ImgProps, index: number) => {
         return (
           <div
