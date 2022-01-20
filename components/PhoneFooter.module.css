@@ -1,0 +1,17 @@
+.PhoneFooter{
+    width:428px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+.desc{
+    color: #1373E6;
+
+}
+.about{
+    margin-top: 20px;
+    margin-left: 50px;
+}
+.title{
+    margin-bottom: 10px;
+    font-size: 24px;
+}
